@@ -1,0 +1,51 @@
+<style>
+    form div {
+        margin-bottom: 10px;
+    }
+</style>
+
+<body>
+    <h3>Đăng ký ứng tuyển TechTalent</h3>
+    <form action="/xu_ly_tuyen_dung" method="post">
+        <fieldset>
+            <legend>Thông tin cá nhân</legend>
+            <div>
+                <label>Họ và tên:</label>
+                <input type="text" placeholder="Nhập họ tên" required>
+            </div>
+            <div>
+                <label>Mật khẩu:</label>
+                <input type="password" placeholder="Tạo mật khẩu" required>
+            </div>
+            <div>
+                <label>Email liên hệ:</label>
+                <input type="email" placeholder="Nhập email" required>
+            </div>
+            <div>
+                <label>Giới tính:</label>
+                <input type="radio" name="gtinh" id="nam">
+                <label for="nam">Nam</label>
+                <input type="radio" name="gtinh" id="nu">
+                <label for="nu">Nữ</label>
+            </div>
+            <div>
+                <label>Ngày sinh:</label>
+                <input type="date">
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Thông tin chuyên môn</legend>
+            <div>
+                <label>Vị trí ứng tuyển:</label>
+                <input type="text" placeholder="Nhập vị trí ứng tuyển" required>
+            </div>
+            <div>
+                <label for="cv">Nộp CV:</label>
+                <input type="file" id="cv" name="cv" accept=".pdf" required>
+            </div>
+        </fieldset>
+        <div>
+            <input type="submit" value="Gửi hồ sơ">
+        </div>
+    </form>
+</body>

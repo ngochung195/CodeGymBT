@@ -1,0 +1,2 @@
+Lỗi không nhập trường thông tin: Please fill out this field.
+Lỗi nhập email không đúng định dạng: Please include an '@' in the email address. 'nghung' is missing an '@'.
