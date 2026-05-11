@@ -1,0 +1,92 @@
+<style>
+    form div {
+        margin-bottom: 15px;
+    }
+
+    .dollars {
+        margin-left: 10px;
+    }
+
+    .cents {
+        margin-left: 135px;
+    }
+</style>
+
+<body>
+    <h2>Market Research Survey</h2>
+    <p>Please take a few moments to complete this satisfaction survey.</p>
+    <hr>
+    <form>
+        <div>
+            <label><b>What is your age range?</b></label>
+            <br>
+            <select>
+                <option>18-24</option>
+                <option>25-34</option>
+                <option>35-50</option>
+                <option>50+</option>
+            </select>
+        </div>
+        <div>
+            <label><b>What is your yearly income range?</b></label>
+            <br>
+            <select>
+                <option>$0 - $25,000</option>
+                <option>$25,001 - $50,000</option>
+                <option>$50,001 - $100,000</option>
+                <option>100,000+</option>
+            </select>
+        </div>
+        <div>
+            <label><b>Gender Identity</b></label>
+            <br>
+            <input type="radio" name="gender" id="male">
+            <label for="male">Male</label>
+            <br>
+            <input type="radio" name="gender" id="female">
+            <label for="female">Female</label>
+            <br>
+            <input type="radio" name="gender" id="nonbinary">
+            <label for="nonbinary">Nonbinary</label>
+            <br>
+            <input type="radio" name="gender" id="other">
+            <label for="other">Other</label>
+            <br>
+            <input type="text">
+        </div>
+        <div>
+            <label><b>Which of the following products have your purchased in the last 2 months. Please check all that
+                    apply.</b></label>
+            <br>
+            <input type="checkbox" name="products" id="1">
+            <label for="1">Product 1</label>
+            <br>
+            <input type="checkbox" name="products" id="2">
+            <label for="2">Product 2</label>
+            <br>
+            <input type="checkbox" name="products" id="3">
+            <label for="3">Product 3</label>
+        </div>
+        <div>
+            <label><b>How often would you use our new product?</b></label>
+            <br>
+            <input type="radio" name="frequence" id="daily">
+            <label for="daily">Daily</label>
+            <br>
+            <input type="radio" name="frequence" id="weekly">
+            <label for="weekly">Weekly</label>
+            <br>
+            <input type="radio" name="frequence" id="monthly">
+            <label for="monthly">Monthly</label>
+        </div>
+        <div>
+            <label><b>What would you pay for the new product?</b></label>
+            <br>
+            <span>$</span> <input type="number">
+            <span>.</span> <input type="number">
+            <br>
+            <span class="dollars">Dollars</span>
+            <span class="cents">Cents</span>
+        </div>
+    </form>
+</body>
