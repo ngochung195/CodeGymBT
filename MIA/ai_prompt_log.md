@@ -1,0 +1,1 @@
+Trong một HTML Table, sự khác biệt giữa việc chỉ dùng thẻ <tr> so với việc bọc chúng trong <thead> và <tbody> là gì? Nó có bắt buộc không?
