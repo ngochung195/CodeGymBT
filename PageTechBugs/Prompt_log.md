@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 Prompt 1: Kiểm tra giúp tôi code đã chuẩn kiến trúc Semantic chưa
         <nav>
             <ul>
@@ -9,8 +8,6 @@ Prompt 1: Kiểm tra giúp tôi code đã chuẩn kiến trúc Semantic chưa
             </ul>
         </nav>
 
-Prompt 2: 
-=======
 Prompt 2: Kiểm tra giúp tôi đã chuẩn Semantic chưa?
 <!DOCTYPE html>
 <html lang="vi">
@@ -56,4 +53,3 @@ Prompt 2: Kiểm tra giúp tôi đã chuẩn Semantic chưa?
 </body>
 
 </html>
->>>>>>> feature/semantic-layout
