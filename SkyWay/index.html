@@ -1,0 +1,125 @@
+<style>
+    form div {
+        margin-bottom: 10px;
+    }
+
+    input[type="submit"] {
+        margin-top: 10px;
+    }
+
+    table {
+        border-collapse: collapse;
+    }
+
+    table,
+    th,
+    td {
+        border: 1px solid black;
+    }
+
+    th,
+    td {
+        padding: 10px;
+        text-align: center;
+    }
+</style>
+
+<body>
+    <section class="form-dat-ve">
+        <h2>Đặt vé máy bay</h2>
+        <form>
+            <fieldset>
+                <legend>Thông tin đặt vé</legend>
+                <div>
+                    <label>Họ tên:</label>
+                    <input type="text" required placeholder="Nhập họ tên">
+                </div>
+                <div>
+                    <label>SĐT:</label>
+                    <input type="number" required placeholder="Nhập SĐT">
+                </div>
+                <div>
+                    <label>Email:</label>
+                    <input type="email" required placeholder="Nhập email">
+                </div>
+                <div>
+                    <label>Giới tính:</label>
+                    <input type="radio" name="gtinh" id="nam">
+                    <label for="nam">Nam</label>
+                    <input type="radio" name="gtinh" id="nu">
+                    <label for="nu">Nữ</label>
+                </div>
+                <div>
+                    <label>Ngày bay:</label>
+                    <input type="date" required>
+                </div>
+                <div>
+                    <label>Hạng bay:</label>
+                    <select>
+                        <option>--Chọn hạng bay--</option>
+                        <option>Phổ thông</option>
+                        <option>Thương gia</option>
+                        <option>Hạng nhất</option>
+                    </select>
+                </div>
+            </fieldset>
+            <input type="submit" value="Đặt vé">
+        </form>
+    </section>
+    <hr>
+    <section class="lich-trinh-bay">
+        <h2>Lịch bay hôm nay</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Mã chuyến</th>
+                    <th>Điểm đi - Điểm đến</th>
+                    <th>Thời gian</th>
+                    <th>Tình trạng</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>VN123</td>
+                    <td>Hà Nội - TP. HCM</td>
+                    <td>08:00</td>
+                    <td>Cửa số 9</td>
+                </tr>
+                <tr>
+                    <td>VJ456</td>
+                    <td>Hà Nội - Đà Nẵng</td>
+                    <td colspan="2">ĐÃ HỦY</td>
+                </tr>
+                <tr>
+                    <td>NH897</td>
+                    <td>Hà Nội - Tokyo (HND)</td>
+                    <td>23:50</td>
+                    <td>Khởi hành đúng giờ</td>
+                </tr>
+                <tr>
+                    <td>KE680</td>
+                    <td>TP. HCM - Seoul (ICN)</td>
+                    <td>00:15</td>
+                    <td>Đang làm thủ tục</td>
+                </tr>
+                <tr>
+                    <td>VN019</td>
+                    <td>Hà Nội - Paris (CDG)</td>
+                    <td colspan="2">HOÃN DO THỜI TIẾT</td>
+                </tr>
+                <tr>
+                    <td>SQ173</td>
+                    <td>TP. HCM - Singapore (SIN)</td>
+                    <td>12:30</td>
+                    <td>Cửa số 15</td>
+                </tr>
+                <tr>
+                    <td>QR971</td>
+                    <td>TP. HCM - Doha (DOH)</td>
+                    <td>19:20</td>
+                    <td>Delay: 20:00</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+</body>
