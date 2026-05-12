@@ -1,0 +1,44 @@
+<style>
+    form div {
+        margin-bottom: 10px;
+    }
+</style>
+
+<body>
+    <h2>Đăng ký tham gia săn lỗi</h2>
+    <form action="/xu_ly_dang_ky" method="post">
+        <div>
+            <label>Họ và tên:</label>
+            <input type="text" placeholder="Nhập họ tên" required>
+        </div>
+        <div>
+            <label>Mật khẩu:</label>
+            <input type="password" placeholder="Tạo mật khẩu" required>
+        </div>
+        <div>
+            <label>Email liên hệ:</label>
+            <input type="email" placeholder="Nhập email" required>
+        </div>
+        <div>
+            <label>Trình độ:</label>
+            <input type="radio" name="trinhdo" id="newbie" required>
+            <label for="newbie">Mới tập chơi</label>
+            <input type="radio" name="trinhdo" id="pro">
+            <label for="pro">Chuyên nghiệp</label>
+        </div>
+        <div>
+            <label>Nền tảng yêu thích:</label>
+            <input type="checkbox" name="nentang" id="web">
+            <label for="web">Web</label>
+            <input type="checkbox" name="nentang" id="mobile">
+            <label for="mobile">Mobile</label>
+        </div>
+        <div>
+            <label for="cv">Lý do tham gia:</label>
+            <textarea placeholder="Chia sẻ lý do của bạn" required></textarea>
+        </div>
+        <div>
+            <input type="submit" value="Đăng ký ngay">
+        </div>
+    </form>
+</body>
